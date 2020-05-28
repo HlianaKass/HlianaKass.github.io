@@ -1,0 +1,13 @@
+﻿
+#content h1{
+margin:0px 0px 20px 0px; font-size:28px; border-bottom:1px gray solid; padding:20px 0px;
+
+}
+
+#content img {padding:10px; border:1px gray solid; margin:15px 35px; height:300px; width:450px;}
+#content table { float:left; width:250px; font-size:14px;  margin:05px;}
+
+#content td {padding:08px;}
+#content th {background-color:#CCFFCC;}
+
+

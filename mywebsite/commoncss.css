@@ -1,0 +1,100 @@
+﻿/*Global*/
+
+html,body { margin:0px; padding:0px; border:0px; font-size:10px;
+	}
+	
+body{
+	background-color:#eeeeee;
+}
+
+img {margin:0px; padding:0px; border:0px; 
+	}
+ 
+
+
+/*Conteiners*/
+
+#wrapper {
+	 width:900px;
+	 margin:0px auto;
+	 background-color:white;
+}
+
+#top {
+    background-color:black;
+    width:100%;
+    padding:20px 0px;
+    overflow:hidden; border-bottom:1px gray solid;
+	}
+
+#logo {
+	margin:0px 0px 0px 10px;
+	float:left;
+}
+
+#social {
+	float:right;
+    margin: 25px 10px 0px 25px; 
+}
+
+#social p {
+    color:white;
+    font-size:14px;
+    margin:4px 10px 4px 80px;
+	}
+	
+#social img {
+	width:15px; height:15px;
+	margin:60px 0px 0px 0px;
+	
+}
+#social ul li {
+   display:inline;
+   padding:0px 15px 0px 0px;
+	
+}
+#topnav {
+	background-color:#333333; clear:both;  
+	}
+
+#topnav ul {
+    width:100%;  padding:0px;
+	float:left;
+	margin:0px;
+	background-color:#333333; border-bottom:2px gray solid;
+}
+
+#topnav ul li {
+	display:inline;  text-align:center;
+
+}
+#topnav ul li a {
+	float:left; padding:10px 20px; font-size:17px;}
+#topnav a:link {color:white;}
+#topnav a:visited {color:white;}
+#topnav a:active {color:white;}
+#topnav a:hover {color:white; background-color:#009191;}
+#topnav a:focus {color:white;}
+
+#content {
+    float:left; clear:both;
+	width:580px; height:1050px;
+	padding:20px;
+}
+
+#content p{ margin:20px 05px; line-height:160%; font-size:14px;
+}
+
+
+#rightside{padding:30px; margin-left:600px;}
+#rightside img {padding:50px 0px 0px 0px;}
+#rightside p {padding:0px 0px 0px 05px; font-size:11px;}
+
+#footer {
+	width:100%; clear:both;
+	padding:10px 0px;
+	text-align:center;
+	background-color:black;
+}
+#footer p {text-align:center; color:white;}
+
