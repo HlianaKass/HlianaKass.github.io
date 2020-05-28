@@ -1,6 +1,6 @@
 ﻿/*Global*/
 
-html,body { margin:0px; padding:0px; border:0px; font-size:10px;
+html,body { margin:0px; padding:0px; border:0px; font-size:10px; font: Century Gothic;
 	}
 	
 body{
@@ -78,11 +78,11 @@ img {margin:0px; padding:0px; border:0px;
 
 #content {
     float:left; clear:both;
-	width:580px; height:1050px;
+	width:580px; height:1100px;
 	padding:20px;
 }
 
-#content p{ margin:20px 05px; line-height:160%; font-size:14px;
+#content p{ margin:20px 05px; line-height:160%; font-size:15px;
 }
 
 
