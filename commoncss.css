@@ -1,6 +1,6 @@
 ﻿/*Global*/
 
-html,body { margin:0px; padding:0px; border:0px; font-size:10px; font: Century Gothic;
+html,body { margin:0px; padding:0px; border:0px; font-family: sans-serif;
 	}
 	
 body{
@@ -73,16 +73,16 @@ img {margin:0px; padding:0px; border:0px;
 #topnav a:link {color:white;}
 #topnav a:visited {color:white;}
 #topnav a:active {color:white;}
-#topnav a:hover {color:white; background-color:#009191;}
+#topnav a:hover {color:white; background-color:#006D79;}
 #topnav a:focus {color:white;}
 
 #content {
     float:left; clear:both;
-	width:580px; height:1100px;
+	width:580px; height:1200px;
 	padding:20px;
 }
 
-#content p{ margin:20px 05px; line-height:160%; font-size:15px;
+#content p{ margin:20px 05px; line-height:160%; font-size:16px;
 }
 
 
