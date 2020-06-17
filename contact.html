@@ -7,6 +7,8 @@
 <title>Welcome to Hliana's webpage</title>
 <link href="commoncss.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css5.css" rel="stylesheet" type="text/css" media="screen">
+
+
 </head>
 
 <body>
@@ -42,22 +44,34 @@
 
 <div id="content">
 <h1> Επικοινωνία</h1>
-<p> Θα χαρώ πολύ να επικοινωνήσετε μαζί μου. Ακολουθούν οι σύνδεσμοι με τους προσωπικούς μου λογαριασμούς.</p>
-<ul>
-<p>Instagram: hliana_kassara</p>
-<a href="https://www.instagram.com" target="_blank"><p>
-        <img src="mywebsite-pictures/icons/iconfinder_Instagram_1298747.png" height="70" width="75" /></a>
-<p>Facebook: hliana_kassara</p>
-<a href="https://www.instagram.com" target="_blank"><p>
-        <img src="mywebsite-pictures/icons/iconfinder_facebook_386622.png" height="70" width="75" /></a>
-<p>Gmail: hliana_kassara</p>
-<a href="https://www.instagram.com" target="_blank"><p>
-        <img src="mywebsite-pictures/icons/iconfinder_147_Gmail_logo_logos_4373148.png" height="70" width="75" /></a>
-        </ul>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Όνομα</label>
+    <input type="text" id="fname" name="firstname" placeholder="Το όνομά σου..">
+
+    <label for="lname">E-mail</label>
+    <input type="text" id="lname" name="lastname" placeholder="Το e-mail σου..">
+
+  
+    <label for="subject">Μήνυμα</label>
+    <textarea id="subject" name="subject" placeholder="Γράψτε κάτι.." style="height:200px"></textarea>
+	 
+
+  </form>
 </div>
+ <input id="OpenUrl"  type="submit" value="Πάτησε εδώ" onclick="OpenUrl()"/>
+</div>
+<script>
+
+function OpenUrl() {
+  alert("Το μήνυμα καταχωρήθηκε! Σας ευχαριστώ που επικοινωνήσατε μαζί μου.");
+}
+ 
+</script>
 
 <div id="rightside">
-<img src=mywebsite-pictures/1_hCnk6RFHkCWx8vKBVAoe2Q.png height="200" width="230"/>
+<img src="mywebsite-pictures/calendar2.png" height="240" width="240"/>
 <p> Oprah Winfrey: «Γίνεσαι αυτό που πιστεύεις».
 </div>
 

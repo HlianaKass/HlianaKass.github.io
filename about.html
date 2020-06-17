@@ -45,17 +45,44 @@
 Πληροφορικής και Ηλεκτρονικών Συστημάτων του Διεθνούς Πανεπιστημίου της Ελλάδος. Eίμαι 23 χρόνων και 
 γεννήθηκα και μεγάλωσα στην Θεσσαλονίκη. Ακολουθούν  φωτογραφίες 
 της πανέμορφης αυτής πόλης.  </p>  
- <div id=images> 
-   <img src="mywebsite-pictures/θεσσαλ1.jpg" height="250" width="250"/>
-   <img src="mywebsite-pictures/θεσσαλ2.jpg" height="200" width="250"/>
-   <img src="mywebsite-pictures/θεσσαλ3.jpg" height="175" width="200"/>
-   <img src="mywebsite-pictures/kastra.jpg" height="205" width="300"/>
-   </div>
+
+<div style="text-align:center">
+  <p>Κάντε κλικ στις ακόλουθες εικόνες</p>
 </div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="mywebsite-pictures/θεσσαλ1.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);"/>
+  </div>
+  <div class="column">
+    <img src="mywebsite-pictures/θεσσαλ2.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);"/>
+  </div>
+  <div class="column">
+    <img src="mywebsite-pictures/θεσσαλ3.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);"/>
+  </div>
+  <div class="column">
+    <img src="mywebsite-pictures/kastra.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:48%;height:290px"/>
+</div>
+</div>
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  expandImg.src = imgs.src;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
 
 
 <div id="rightside">
-<img src=mywebsite-pictures/1_hCnk6RFHkCWx8vKBVAoe2Q.png height="200" width="230"/>
+<img src="mywebsite-pictures/calendar2.png" height="230" width="240"/>
 <p style="width: 201px"> Zig Ziglar: «Αν μπορείς να το ονειρευτείς, μπορείς και να το κάνεις».
 </div>
 
